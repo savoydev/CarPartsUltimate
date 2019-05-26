@@ -1,0 +1,7 @@
+INSERT INTO Controls (Name, FilePath) VALUES
+('CategorySelector','~/Controls/Default/CategorySelector.ascx'),
+('DealerFinder','~/Controls/Default/DealerFinder.ascx'),
+('FeaturedProducts','~/Controls/Default/FeaturedProducts.ascx'),
+('HeroContent', '~/Controls/Default/HeroContent.ascx'),
+('VehicleSelection',	'~/Controls/Default/VehicleSelection.ascx')
+

@@ -1,0 +1,11 @@
+USE master
+
+GO
+
+CREATE TABLE PageControls (
+	Id	INT NOT NULL IDENTITY PRIMARY KEY,
+	SiteId	INT,
+	ControlId	INT,
+	PageName	VARCHAR(200),
+	SortOrder	INT
+)

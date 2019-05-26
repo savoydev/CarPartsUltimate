@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{818A79D9-E496-42BF-86F9-13A84FC9754B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimplePartUltimate/Default.aspx.cs">
+    <Files>
+      <File FileName="SimplePartUltimate/Controls/ControlLoader.cs" Line="18" Column="29" />
+      <File FileName="SimplePartUltimate/CSS/styles.css" Line="2" Column="47" />
+      <File FileName="SimplePartUltimate/Default.aspx.cs" Line="16" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SimplePartUltimate" expanded="True">
+            <Node name="SimplePartUltimate" expanded="True">
+              <Node name="Controls" expanded="True" />
+              <Node name="CSS" expanded="True" />
+              <Node name="Default.aspx" expanded="True">
+                <Node name="Default.aspx.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="SimplePartUltimateData" expanded="True" />
+            <Node name="SimplePartUltimateLib" expanded="True">
+              <Node name="SiteConfig" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SimplePartUltimate PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>../SimplePartUltimateLIbrary/SimplePartUltimateLIbrary/SimplePartUltimateLIbrary.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

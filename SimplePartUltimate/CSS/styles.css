@@ -1,0 +1,318 @@
+﻿body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-area {
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+.hero-area__title {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+.hero-area__text {
+  font-size: 1.5em;
+}
+
+.nearest-dealer-finder {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.nearest-dealers {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.nearest-dealer-header {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.nearest-dealer {
+  width: 30%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 1%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nearest-dealer:last-child {
+  margin-right: 0;
+}
+
+.nearest-dealer__info {
+  float: left;
+  text-align: left;
+}
+
+.nearest-dealer__button {
+  float: right;
+}
+
+.nearest-dealer__name {
+  font-size: 1.25em;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #333;
+  border: none;
+}
+
+.button:hover {
+  background-color: #666;
+  color: #fafafa;
+}
+
+.refine-fitment {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.refine-fitment-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.refine-fitment-links li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 17%;
+  margin-right: 1%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 200px;
+  position: relative;
+}
+
+.refine-fitment-links li:last-child {
+  margin-right: 0;
+}
+
+.refine-fitment-link__image {
+  max-width: 100%;
+  height: auto;
+}
+
+.refine-fitment-link__name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.refine-fitment__header {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.quick-start {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.quick-start__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.quick-start__category {
+  display: inline-block;
+  vertical-align: middle;
+  width: 22%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 1%;
+  height: 100px;
+  margin-bottom: 1%;
+  overflow: hidden;
+}
+
+.quick-start__category:nth-child(4n + 4) {
+  margin-right: 0;
+}
+
+.quick-start__category-image {
+  width: 20%;
+  height: auto;
+  float: left;
+}
+
+.quick-start__category-name {
+  float: left;
+  width: 80%;
+}
+
+.quick-start__category-link {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.quick-start__header {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.featured-products {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.featured-products__header {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.featured-products__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.featured-product {
+  vertical-align: middle;
+  width: 13%;
+  padding: 10px;
+  margin-right: 1%;
+  border: 1px solid #ccc;
+  margin-bottom: 1%;
+  display: inline-block;
+}
+
+.featured-product:last-child {
+  margin-right: 0;
+}
+
+.featured-product__image {
+  max-width: 100%;
+}
+
+.featured-product__name {
+  font-size: 1.25em;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.featured-product__price {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.featured-product__link {
+  display: block;
+  text-align: 100%;
+}
+
+.header-nav__parts-link {
+  position: relative;
+}
+
+.header-dropdown {
+  border: 1px solid #ccc;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 1px 7px 10px rgba(204, 204, 204, 0.71);
+}
+
+.header-dropdown__link {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+  background-color: #fff;
+}
+
+.header-dropdown__link:last-child {
+  border: none;
+}
+
+.main-nav {
+  padding: 10px;
+}
+
+.main-nav * {
+  display: inline-block;
+}
+
+.vehicle-selection-modal {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: 1px 7px 10px rgba(204, 204, 204, 0.71);
+}
+
+.vehicle-selection-modal__header {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.vehicle-selection-modal__content {
+  text-align: center;
+}
+
+.vehicle-selection-modal__image {
+  max-width: 100%;
+  height: auto;
+}
+
+.vehicle-selection-modal__link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  width: 17%;
+  margin-right: 1%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+}
+
+.vehicle-selection-modal__text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+}

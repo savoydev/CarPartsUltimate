@@ -1,0 +1,8 @@
+/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/bin/Debug/netstandard2.0/SimplePartUltimateLib.deps.json
+/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/bin/Debug/netstandard2.0/SimplePartUltimateLib.dll
+/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/bin/Debug/netstandard2.0/SimplePartUltimateLib.pdb
+/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/obj/Debug/netstandard2.0/SimplePartUltimateLib.csproj.CoreCompileInputs.cache
+/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/obj/Debug/netstandard2.0/SimplePartUltimateLib.AssemblyInfoInputs.cache
+/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/obj/Debug/netstandard2.0/SimplePartUltimateLib.AssemblyInfo.cs
+/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/obj/Debug/netstandard2.0/SimplePartUltimateLib.dll
+/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/obj/Debug/netstandard2.0/SimplePartUltimateLib.pdb

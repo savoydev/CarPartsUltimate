@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" Inherits="CarPartsUltimate.MasterPage" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+	<title>MasterPage</title>
+    <link href="~/CSS/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+<form runat="server">
+    <asp:PlaceHolder id="HeaderNavigation" runat="server" />
+    <asp:ContentPlaceHolder id="contentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+</form>
+</div>
+</body>
+</html>
