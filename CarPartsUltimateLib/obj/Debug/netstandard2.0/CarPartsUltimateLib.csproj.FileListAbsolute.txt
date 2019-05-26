@@ -6,3 +6,11 @@
 /Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/obj/Debug/netstandard2.0/CarPartsUltimateLib.AssemblyInfo.cs
 /Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/obj/Debug/netstandard2.0/CarPartsUltimateLib.dll
 /Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/obj/Debug/netstandard2.0/CarPartsUltimateLib.pdb
+/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/bin/Debug/netstandard2.0/CarPartsUltimateLib.deps.json
+/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/bin/Debug/netstandard2.0/CarPartsUltimateLib.dll
+/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/bin/Debug/netstandard2.0/CarPartsUltimateLib.pdb
+/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/obj/Debug/netstandard2.0/CarPartsUltimateLib.csproj.CoreCompileInputs.cache
+/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/obj/Debug/netstandard2.0/CarPartsUltimateLib.AssemblyInfoInputs.cache
+/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/obj/Debug/netstandard2.0/CarPartsUltimateLib.AssemblyInfo.cs
+/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/obj/Debug/netstandard2.0/CarPartsUltimateLib.dll
+/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/obj/Debug/netstandard2.0/CarPartsUltimateLib.pdb

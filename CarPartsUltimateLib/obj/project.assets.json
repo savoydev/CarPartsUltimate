@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/CarPartsUltimateLib.csproj",
+      "projectUniqueName": "/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/CarPartsUltimateLib.csproj",
       "projectName": "CarPartsUltimateLib",
-      "projectPath": "/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/CarPartsUltimateLib.csproj",
+      "projectPath": "/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/CarPartsUltimateLib.csproj",
       "packagesPath": "/Users/savoysounds/.nuget/packages/",
-      "outputPath": "/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/obj/",
+      "outputPath": "/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

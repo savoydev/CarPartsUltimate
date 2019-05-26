@@ -819,8 +819,8 @@
     },
     "CarPartsUltimateLib/1.0.0": {
       "type": "project",
-      "path": "../SimplePartUltimateLib/CarPartsUltimateLib.csproj",
-      "msbuildProject": "../SimplePartUltimateLib/CarPartsUltimateLib.csproj"
+      "path": "../CarPartsUltimateLib/CarPartsUltimateLib.csproj",
+      "msbuildProject": "../CarPartsUltimateLib/CarPartsUltimateLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -837,11 +837,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateData/CarPartsUltimateData.csproj",
+      "projectUniqueName": "/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateData/CarPartsUltimateData.csproj",
       "projectName": "CarPartsUltimateData",
-      "projectPath": "/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateData/CarPartsUltimateData.csproj",
+      "projectPath": "/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateData/CarPartsUltimateData.csproj",
       "packagesPath": "/Users/savoysounds/.nuget/packages/",
-      "outputPath": "/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateData/obj/",
+      "outputPath": "/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateData/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -858,8 +858,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/CarPartsUltimateLib.csproj": {
-              "projectPath": "/Users/savoysounds/Projects/SimplePartUltimate/SimplePartUltimateLib/CarPartsUltimateLib.csproj"
+            "/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/CarPartsUltimateLib.csproj": {
+              "projectPath": "/Users/savoysounds/Projects/CarPartsUltimate/CarPartsUltimateLib/CarPartsUltimateLib.csproj"
             }
           }
         }

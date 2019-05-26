@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
@@ -10,10 +11,12 @@ namespace CarPartsUltimate.Controllers
 {
     public class CategoriesController : ApiController
     {
+        private string _connString = ConfigurationManager.ConnectionStrings["masterConnection"].ToString();
+
         public IHttpActionResult GetCatgegories()
         {
-            CategoryRepo categoryRepo = new CategoryRepo();
-            List<ICategory> categories = categoryRepo.GetCategories();
+            ICategoryRepo categoryRepo = new CategoryRepo();
+            List<ICategory> categories = categoryRepo.GetCategories(_connString);
             if (categories == null)
             {
                 return NotFound();

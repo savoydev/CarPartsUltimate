@@ -1,0 +1,16 @@
+Use master
+
+GO
+
+INSERT INTO Categories (Name, Image, DestinationHref) VALUES
+('Batteries', '', ''),
+('Brakes', '',''),
+('Collision','',''),
+('Drivetrain','',''),
+('Electrical and Lighting','',''),
+('Emission','',''),
+('Engine','',''),
+('Filters','',''),
+('Fuel Delivery','',''),
+('Gaskets','',''),
+('Ignition','','')

@@ -1,0 +1,10 @@
+Use master
+
+GO
+
+CREATE TABLE Categories (
+    Id INT NOT NULL IDENTITY PRIMARY KEY,
+    [Name] VARCHAR(500),
+    [Image] VARCHAR(500),
+    DestinationHref VARCHAR(500)
+)

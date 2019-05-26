@@ -5,6 +5,6 @@ namespace CarPartsUltimateData
 {
     public interface ICategoryRepo
     {
-        List<ICategory> GetCategories();
+        List<ICategory> GetCategories(string connectionString);
     }
 }

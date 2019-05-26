@@ -187,13 +187,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SimplePartUltimateLib\CarPartsUltimateLib.csproj">
-      <Project>{89F3D435-9B01-476F-8FF8-CAB5E11A8F53}</Project>
-      <Name>CarPartsUltimateLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SimplePartUltimateData\CarPartsUltimateData.csproj">
-      <Project>{9E89B21C-8306-4AA6-8DE1-3ACED37AE875}</Project>
+    <ProjectReference Include="..\CarPartsUltimateData\CarPartsUltimateData.csproj">
+      <Project>{0587568A-D4E3-447F-A7C7-7D815AE1D76F}</Project>
       <Name>CarPartsUltimateData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarPartsUltimateLib\CarPartsUltimateLib.csproj">
+      <Project>{8C3471FA-2C79-4BDD-8FE5-FC906EB40361}</Project>
+      <Name>CarPartsUltimateLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

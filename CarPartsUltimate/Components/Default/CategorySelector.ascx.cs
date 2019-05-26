@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Web;
 using System.Web.UI;
 using CarPartsUltimateData;
@@ -19,7 +20,8 @@ namespace CarPartsUltimate.Components.Default
         private void GetCategories()
         {
             ICategoryRepo categoryRepo = new CategoryRepo();
-            Categories = categoryRepo.GetCategories();
+            string connectionString = ConfigurationManager.ConnectionStrings["masterConnection"].ToString();
+            Categories = categoryRepo.GetCategories(connectionString);
         }
     }
 }

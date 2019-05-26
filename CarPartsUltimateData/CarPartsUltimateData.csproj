@@ -5,9 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SimplePartUltimateLib\CarPartsUltimateLib.csproj" />
+    <ProjectReference Include="..\CarPartsUltimateLib\CarPartsUltimateLib.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration" />
   </ItemGroup>
 </Project>

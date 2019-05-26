@@ -1,47 +1,25 @@
 ﻿<Properties StartupConfiguration="{818A79D9-E496-42BF-86F9-13A84FC9754B}|">
   <MonoDevelop.Ide.ItemProperties.CarPartsUltimate PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SimplePartUltimate/Default.aspx">
-    <Files>
-      <File FileName="SimplePartUltimate/Components/Header/HeaderContainer.ascx" Line="1" Column="64" />
-      <File FileName="SimplePartUltimate/Components/Header/VehicleSelectionModal.ascx" Line="21" Column="7" />
-      <File FileName="SimplePartUltimate/Default.aspx" Line="27" Column="15" />
-      <File FileName="SimplePartUltimate/MasterPage.master" Line="16" Column="8" />
-      <File FileName="SimplePartUltimate/Components/PageControlLoader.cs" Line="40" Column="31" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarPartsUltimate" expanded="True">
             <Node name="CarPartsUltimate" expanded="True">
+              <Node name="References" expanded="True" />
               <Node name="Components" expanded="True">
-                <Node name="Default" expanded="True" />
-                <Node name="Header" expanded="True" />
-                <Node name="Universal" expanded="True">
-                  <Node name="ProductCard.ascx" expanded="True" />
+                <Node name="Default" expanded="True">
+                  <Node name="CategorySelector.ascx" expanded="True" />
                 </Node>
               </Node>
-              <Node name="CSS" expanded="True" />
-              <Node name="Scripts" expanded="True" />
-              <Node name="Default.aspx" expanded="True" selected="True" />
-              <Node name="MasterPage.master" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Default.aspx" expanded="True" />
             </Node>
             <Node name="CarPartsUltimateData" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
+              <Node name="CategoryRepo.cs" selected="True" />
             </Node>
-            <Node name="CarPartsUltimateLib" expanded="True">
-              <Node name="SiteConfig" expanded="True" />
-            </Node>
+            <Node name="CarPartsUltimateLib" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="CarPartsUltimate" selected="True" />
         </State>
       </Pad>
     </Pads>
@@ -50,6 +28,8 @@
   <DisabledProjects>
     <String>../SimplePartUltimateLIbrary/SimplePartUltimateLIbrary/SimplePartUltimateLIbrary.csproj</String>
     <String>SimplePartUltimate.Tests/SimplePartUltimate.Tests.csproj</String>
+    <String>SimplePartUltimateData/CarPartsUltimateData.csproj</String>
+    <String>SimplePartUltimateLib/CarPartsUltimateLib.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

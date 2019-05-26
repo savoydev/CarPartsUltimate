@@ -1,7 +1,7 @@
 INSERT INTO Controls (Name, FilePath) VALUES
-('CategorySelector','~/Controls/Default/CategorySelector.ascx'),
-('DealerFinder','~/Controls/Default/DealerFinder.ascx'),
-('FeaturedProducts','~/Controls/Default/FeaturedProducts.ascx'),
-('HeroContent', '~/Controls/Default/HeroContent.ascx'),
-('VehicleSelection',	'~/Controls/Default/VehicleSelection.ascx')
+('CategorySelector','~/Components/Default/CategorySelector.ascx'),
+('DealerFinder','~/Components/Default/DealerFinder.ascx'),
+('FeaturedProducts','~/Components/Default/FeaturedProducts.ascx'),
+('HeroContent', '~/Components/Default/HeroContent.ascx'),
+('VehicleSelection',	'~/Components/Default/VehicleSelection.ascx')
 
