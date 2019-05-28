@@ -1,4 +1,4 @@
-# CarPartsUltimate
+# Car Parts Ultimate
 Demo app for architecting a car parts ecommerce site. This app is created as a demo to show how I'd architect a legacy car parts ecommerce web app.
 
 To "keep up" with it being legacy, I decided to create a brand new app using... web forms. This allows me to truly test out my ideas and if they work. The beginning goal of this app is to use n-tier architecture. Presentation layer, business layer, and data layer. Webforms seems to naturally tie all these things together from what I've seen, so I'm attempting newer design practice with a legacy framework.
