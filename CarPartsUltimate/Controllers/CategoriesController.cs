@@ -15,8 +15,8 @@ namespace CarPartsUltimate.Controllers
 
         public IHttpActionResult GetCatgegories()
         {
-            ICategoryRepo categoryRepo = new CategoryRepo();
-            List<ICategory> categories = categoryRepo.GetCategories(_connString);
+            ICategoryRepo categoryRepo = new CategoryRepo(_connString);
+            List<ICategory> categories = categoryRepo.GetCategories();
             if (categories == null)
             {
                 return NotFound();

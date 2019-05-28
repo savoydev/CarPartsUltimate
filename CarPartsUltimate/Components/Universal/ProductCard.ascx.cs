@@ -9,9 +9,9 @@ namespace CarPartsUltimate.Components.Universal
 
     public partial class ProductCard : BaseControl
     {
-        public Product Product { get; set; }
+        public IProduct Product { get; set; }
 
-        public string GetFirstImage(Product product)
+        public string GetFirstImage(IProduct product)
         {
             return product.Images.FirstOrDefault().ThumbnailSource;
         }

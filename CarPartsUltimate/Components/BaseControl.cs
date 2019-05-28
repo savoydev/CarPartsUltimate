@@ -7,6 +7,8 @@ namespace CarPartsUltimate.Components
 {
     public class BaseControl : System.Web.UI.UserControl
     {
+        public string ControlId { get; set;}
+        public string ControlOrder { get; set; }
         public List<SiteControl> GetControlsForPage(string pageName, int siteId = 0, bool IsB2B = false, bool IsWholesale = false)
         {
             List<SiteControl> controls = new List<SiteControl>();
@@ -59,16 +61,5 @@ namespace CarPartsUltimate.Components
                 }
             };
         }
-
-        private List<SiteControl> ControlsForHeader1()
-        {
-            throw new NotImplementedException();
-        }
-
-        private List<SiteControl> ControlsForHeader2()
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }

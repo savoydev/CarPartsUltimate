@@ -1,0 +1,11 @@
+INSERT INTO Products (StockCode, [Description], Title, Price, [Image], [Enabled], CategoryId) VALUES 
+('ASD12D1D', 'alternators are engineered to provide the amp output necessary to power today’s vehicles.', 'Atlernator', 176.99, 'https://contentinfo.autozone.com/znetcs/product-info/en/US/dur/DLG1923-16-4/image/3/', 1, 0),
+('ASD12D1D', 'alternators are engineered to provide the amp output necessary to power today’s vehicles.', 'Atlernator', 176.99, 'https://contentinfo.autozone.com/znetcs/product-info/en/US/dur/DLG1923-16-4/image/3/', 1, 0),
+('ASD12D1D', 'alternators are engineered to provide the amp output necessary to power today’s vehicles.', 'Atlernator', 176.99, 'https://contentinfo.autozone.com/znetcs/product-info/en/US/dur/DLG1923-16-4/image/3/', 1, 0),
+('ASD12D1D', 'alternators are engineered to provide the amp output necessary to power today’s vehicles.', 'Atlernator', 176.99, 'https://contentinfo.autozone.com/znetcs/product-info/en/US/dur/DLG1923-16-4/image/3/', 1, 0),
+('ASD12D1D', 'alternators are engineered to provide the amp output necessary to power today’s vehicles.', 'Atlernator', 176.99, 'https://contentinfo.autozone.com/znetcs/product-info/en/US/dur/DLG1923-16-4/image/3/', 1, 0),
+('ASD12D1D', 'alternators are engineered to provide the amp output necessary to power today’s vehicles.', 'Atlernator', 176.99, 'https://contentinfo.autozone.com/znetcs/product-info/en/US/dur/DLG1923-16-4/image/3/', 1, 0),
+('ASD12D1D', 'alternators are engineered to provide the amp output necessary to power today’s vehicles.', 'Atlernator', 176.99, 'https://contentinfo.autozone.com/znetcs/product-info/en/US/dur/DLG1923-16-4/image/3/', 1, 0),
+('ASD12D1D', 'alternators are engineered to provide the amp output necessary to power today’s vehicles.', 'Atlernator', 176.99, 'https://contentinfo.autozone.com/znetcs/product-info/en/US/dur/DLG1923-16-4/image/3/', 1, 0),
+('ASD12D1D', 'alternators are engineered to provide the amp output necessary to power today’s vehicles.', 'Atlernator', 176.99, 'https://contentinfo.autozone.com/znetcs/product-info/en/US/dur/DLG1923-16-4/image/3/', 1, 0),
+('ASD12D1D', 'alternators are engineered to provide the amp output necessary to power today’s vehicles.', 'Atlernator', 176.99, 'https://contentinfo.autozone.com/znetcs/product-info/en/US/dur/DLG1923-16-4/image/3/', 1, 0)

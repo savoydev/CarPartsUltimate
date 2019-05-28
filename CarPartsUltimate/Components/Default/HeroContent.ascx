@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" Inherits="CarPartsUltimate.Components.Default.HeroArea" CodeBehind="HeroArea.ascx.cs" %>
 
 
-<div class="hero-area">
+<div class="hero-area" data-control-id="<%= ControlId %>" data-control-order="<%= ControlOrder %>">
     <div class="hero-area__title">
         <%= ContentArea.Title %>
     </div>

@@ -1,7 +1,8 @@
 ﻿<%@ Control Language="C#" Inherits="CarPartsUltimate.Components.Default.FeaturedProducts" CodeBehind="FeaturedProducts.ascx.cs" %>
 
 
-<div class="featured-products" id="FeaturedProductsComponent" runat="server">
+<% if(HasProducts) { %>
+<div class="featured-products" id="FeaturedProductsComponent" data-control-id="<%= ControlId %>" data-control-order="<%= ControlOrder %>">
     <div class="featured-products__header">
         Featured parts and accessories
     </div>
@@ -9,3 +10,4 @@
         <asp:PlaceHolder id="ProductCardPlaceholder" runat="server" />
     </ul>
 </div>
+<% } %>

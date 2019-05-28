@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" Inherits="CarPartsUltimate.Components.Default.CategorySelector" CodeBehind="CategorySelector.ascx.cs" %>
 
-<div class="quick-start">
+<div class="quick-start" data-control-id="<%= ControlId %>" data-control-order="<%= ControlOrder %>">
     <div class="quick-start__header">
         Select a category
     </div>

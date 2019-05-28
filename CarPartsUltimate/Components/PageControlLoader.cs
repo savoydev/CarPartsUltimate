@@ -9,12 +9,13 @@ using CarPartsUltimateLib.SiteConfig;
 namespace CarPartsUltimate.Components
 {
     public class CarPartsPage : Page
-    {       
+    {
+        private readonly string connString = ConfigurationManager.ConnectionStrings["masterConnection"].ConnectionString;
 
         public void LoadControls(string pageName, string placeholderId, int siteId = 0, bool isB2B = false, bool isWholesale = false)
         {
-            string connString = ConfigurationManager.ConnectionStrings["masterConnection"].ConnectionString;
-            IControlsRepo controlsRepo = new MSSQLControlsRepo(connString);
+
+            IControlsRepo controlsRepo = new ControlsRepo(connString);
             List<SiteControl> controls = controlsRepo.GetControlsForPage(siteId, pageName);
             controls.Add(new SiteControl
             {
@@ -23,15 +24,14 @@ namespace CarPartsUltimate.Components
             });
 
             controls.ForEach(control => AddControlToPlaceholder(LoadControlUp(control), placeholderId));
-
-
-            //List<SiteControl> controls = GetControlsForPage(pageName, siteId, isB2B, isWholesale);
-            //controls.ForEach(control => AddControlToPlaceholder(LoadControlUp(control), placeholderId));
         }
 
         public BaseControl LoadControlUp(SiteControl siteControl)
         {
-            return (BaseControl)LoadControl(siteControl.Path);
+            BaseControl baseControl = (BaseControl)LoadControl(siteControl.Path);
+            baseControl.ControlId = siteControl.Name;
+            baseControl.ControlOrder = siteControl.Order;
+            return baseControl;
         }
 
         public void AddControlToPlaceholder(BaseControl baseControl, string placeholderId)

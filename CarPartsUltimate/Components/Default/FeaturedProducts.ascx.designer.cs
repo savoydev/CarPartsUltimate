@@ -13,8 +13,6 @@ namespace CarPartsUltimate.Components.Default {
 	
 	public partial class FeaturedProducts {
 		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl FeaturedProductsComponent;
-		
 		protected System.Web.UI.WebControls.PlaceHolder ProductCardPlaceholder;
 	}
 }

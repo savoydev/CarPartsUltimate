@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" Inherits="CarPartsUltimate.Components.Default.DealerFinder" CodeBehind="DealerFinder.ascx.cs" %>
 
-<div class="nearest-dealer-finder">
+<div class="nearest-dealer-finder" data-control-id="<%= ControlId %>" data-control-order="<%= ControlOrder %>">
     <div class="nearest-dealer-header">
         Your Nearest Dealers
     </div>

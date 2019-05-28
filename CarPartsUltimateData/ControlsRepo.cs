@@ -7,11 +7,11 @@ using System.Data.SqlClient;
 namespace CarPartsUltimateData
 {
 
-    public class MSSQLControlsRepo : IControlsRepo
+    public class ControlsRepo : IControlsRepo
     {
         private string _connString { get; set; }
 
-        public MSSQLControlsRepo(string connString = "")
+        public ControlsRepo(string connString = "")
         {
             _connString = connString;
         }
@@ -24,7 +24,7 @@ namespace CarPartsUltimateData
             {
                 comm.Connection = conn;
                 comm.CommandType = CommandType.Text;
-                comm.CommandText = "SELECT Name, FilePath FROM Controls a " +
+                comm.CommandText = "SELECT a.Name, a.FilePath, b.SortOrder FROM Controls a " +
                 	"JOIN PageControls b ON a.Id = b.ControlId " +
                     $"WHERE a.Id = b.ControlId AND b.PageName = '{pageName}' AND b.SiteId = {siteId.ToString()} ORDER BY b.SortOrder";
                 conn.Open();
@@ -37,11 +37,13 @@ namespace CarPartsUltimateData
                             siteControls.Add(new SiteControl
                             {
                                 Name = results["Name"].ToString(),
-                                Path = results["FilePath"].ToString()
+                                Path = results["FilePath"].ToString(),
+                                Order = results["SortOrder"].ToString()
                             });
                         }
                     }
                 }
+                conn.Close();
             }
 
             return siteControls;

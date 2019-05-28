@@ -5,6 +5,6 @@ namespace CarPartsUltimateData
 {
     public interface IProductRepo
     {
-        List<Product> GetFeaturedProducts();
+        IEnumerable<IProduct> GetFeaturedProducts();
     }
 }

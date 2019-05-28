@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" Inherits="CarPartsUltimate.Components.Default.VehicleSelection" CodeBehind="VehicleSelection.ascx.cs" %>
 
 
-<div class="refine-fitment">
+<div class="refine-fitment" data-control-id="<%= ControlId %>" data-control-order="<%= ControlOrder %>">
     <div class="refine-fitment__header">
         Select a vehicle type
     </div>

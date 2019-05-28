@@ -12,6 +12,7 @@ namespace CarPartsUltimate.Components.Default
     public partial class CategorySelector : BaseControl
     {
         public List<ICategory> Categories { get; set; }
+        private string _connString = ConfigurationManager.ConnectionStrings["masterConnection"].ToString();
         protected void Page_Load()
         {
             GetCategories();
@@ -19,9 +20,8 @@ namespace CarPartsUltimate.Components.Default
 
         private void GetCategories()
         {
-            ICategoryRepo categoryRepo = new CategoryRepo();
-            string connectionString = ConfigurationManager.ConnectionStrings["masterConnection"].ToString();
-            Categories = categoryRepo.GetCategories(connectionString);
+            ICategoryRepo categoryRepo = new CategoryRepo(_connString);
+            Categories = categoryRepo.GetCategories();
         }
     }
 }

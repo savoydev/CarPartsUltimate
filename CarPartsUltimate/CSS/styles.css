@@ -92,6 +92,10 @@
   text-align: center;
 }
 
+.refine-fitment-link {
+  display: block;
+}
+
 .refine-fitment-links li {
   display: inline-block;
   vertical-align: middle;
@@ -305,6 +309,7 @@
   height: 200px;
   position: relative;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .vehicle-selection-modal__text {

@@ -1,14 +1,60 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using CarPartsUltimateLib;
 
 namespace CarPartsUltimateData
 {
     public class ProductRepo : IProductRepo
     {
-        public List<Product> GetFeaturedProducts()
+        public ProductRepo(string connectionString)
         {
-            return GetDummyProducts();
+            _connString = connectionString;
+        }
+        private string _connString { get; set; }
+
+        public IEnumerable<IProduct> GetFeaturedProducts()
+        {
+            List<IProduct> products = new List<IProduct>();
+            using (SqlConnection conn = new SqlConnection())
+            using (SqlCommand comm = new SqlCommand())
+            {
+                conn.ConnectionString = _connString;
+                comm.Connection = conn;
+                comm.CommandType = System.Data.CommandType.Text;
+                comm.CommandText = "SELECT * FROM Products";
+                conn.Open();
+
+                using (SqlDataReader results = comm.ExecuteReader())
+                {
+                    if(results.HasRows)
+                    {
+                        while(results.Read())
+                        {
+                            products.Add(new Product
+                            {
+                                StockCode = results["StockCode"].ToString(),
+                                Title = results["Title"].ToString(),
+                                Description = results["Description"].ToString(),
+                                Images = new List<Image>()
+                                {
+                                    new Image
+                                    {
+                                        ThumbnailSource = results["Image"].ToString(),
+                                        FullsizeSource = results["Image"].ToString()
+
+                                    }
+                                },
+                                Price = Double.Parse(results["Price"].ToString()),
+                                Enabled = bool.Parse(results["Enabled"].ToString()),
+                                CategoryId = int.Parse(results["CategoryId"].ToString())
+                            });
+                        }
+                    }
+                }
+            }
+
+            return products;
         }
 
         private List<Product> GetDummyProducts()

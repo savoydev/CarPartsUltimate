@@ -1,0 +1,14 @@
+Use master
+
+GO
+
+CREATE TABLE Products (
+    Id INT NOT NULL IDENTITY PRIMARY KEY,
+    StockCode VARCHAR(500),
+    [Description] VARCHAR(500),
+    Title VARCHAR(500),
+    Price DECIMAL(10,2),
+    [Image] VARCHAR(500),
+    [Enabled] BIT,
+    CategoryId INT
+)

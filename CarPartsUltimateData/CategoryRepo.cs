@@ -8,13 +8,19 @@ namespace CarPartsUltimateData
 {
     public class CategoryRepo : ICategoryRepo
     {
-        public List<ICategory> GetCategories(string connectionString)
+        public CategoryRepo(string connectionString)
+        {
+            _connectionString = connectionString;
+        }
+        private string _connectionString {get; set;}
+
+        public List<ICategory> GetCategories()
         {
             List<ICategory> categories = new List<ICategory>();
             using (SqlConnection conn = new SqlConnection())
             using (SqlCommand comm = new SqlCommand())
             {
-                conn.ConnectionString = connectionString;
+                conn.ConnectionString = _connectionString;
                 comm.Connection = conn;
                 comm.CommandType = System.Data.CommandType.Text;
                 comm.CommandText = "SELECT * FROM Categories";

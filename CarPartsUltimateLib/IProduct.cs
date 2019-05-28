@@ -11,5 +11,6 @@ namespace CarPartsUltimateLib
         double Price { get; set; }
         List<Image> Images { get; set; }
         bool Enabled { get; set; }
+        int CategoryId { get; set; }
     }
 }
