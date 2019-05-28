@@ -36,3 +36,7 @@ A stored procedure is called on page load to retrieve the controls to display on
 ---
 
 Data is currently stored in Microsoft SQL Server. Right now there are tables for categories, controls, and products and the application is able to pull data from those tables.
+
+---
+
+There is only a home page right now. In the end there will be a homepage, search, product page and cart page. Each having dynamic control layout abilities. Once this is complete I'll begin work on a CMS to add/edit/modify products, categories, page layouts, and content
