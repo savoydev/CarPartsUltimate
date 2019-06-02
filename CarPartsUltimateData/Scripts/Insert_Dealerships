@@ -1,0 +1,17 @@
+Use master
+
+GO
+
+INSERT INTO Dealerships ([Name], StreetAddress, CityAddress, StateAddress, ZipCodeAddress, CountryAddress, PhoneNumber, [Enabled])
+VALUES
+('Car Dealerhip GA 1', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1),
+('Car Dealerhip GA 2', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1),
+('Car Dealerhip GA 3', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1),
+('Car Dealerhip GA 4', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1),
+('Car Dealerhip GA 5', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1),
+('Car Dealerhip GA 6', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1),
+('Car Dealerhip GA 7', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1),
+('Car Dealerhip GA 8', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1),
+('Car Dealerhip GA 9', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1),
+('Car Dealerhip GA 10', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1),
+('Car Dealerhip GA 11', '123 Street', 'Atlanta', 'GA', '30096', 'US', '1111111111', 1)

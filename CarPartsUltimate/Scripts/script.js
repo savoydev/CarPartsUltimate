@@ -83,18 +83,6 @@ function AddLinks(categories, div) {
 function getAllControls() {
   var controls = document.querySelectorAll("[data-control-id]");
   console.log(controls);
-  for (let i = 0; i < controls.length; i++) {
-    controls[i].addEventListener("mouseoever", showHoverControls);
-    console.log("added event");
-  }
-}
-
-function showHoverControls(e) {
-  console.log("test");
 }
 
 getAllControls();
-
-document
-  .getElementById("ctl08_FeaturedProductsComponent")
-  .addEventListener("mouseoever", showHoverControls, true);

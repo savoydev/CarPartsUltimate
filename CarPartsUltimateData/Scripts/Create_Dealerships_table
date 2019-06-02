@@ -1,0 +1,18 @@
+Use master
+
+GO
+
+CREATE TABLE Dealerships (
+    Id INT NOT NULL IDENTITY PRIMARY KEY,
+    [Name] VARCHAR(500),
+    StreetAddress VARCHAR(500),
+    CityAddress VARCHAR(500),
+    StateAddress VARCHAR(500),
+    ZipCodeAddress VARCHAR(200),
+    CountryAddress VARCHAR(200),
+    PhoneNumber VARCHAR(200),
+    PartsSiteUrl VARCHAR(500),
+    ServiceSiteUrl VARCHAR(500),
+    CarSiteUrl VARCHAR(500),
+    [Enabled] BIT,
+)

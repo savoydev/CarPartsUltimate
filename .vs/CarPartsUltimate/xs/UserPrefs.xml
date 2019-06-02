@@ -1,19 +1,14 @@
 ﻿<Properties StartupConfiguration="{818A79D9-E496-42BF-86F9-13A84FC9754B}|">
   <MonoDevelop.Ide.ItemProperties.CarPartsUltimate PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CarPartsUltimateLib/RefineFitmentLink.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarPartsUltimate/Components/Default/DealerFinder.ascx">
     <Files>
-      <File FileName="CarPartsUltimate/Components/Default/CategorySelector.ascx" Line="16" Column="14" />
-      <File FileName="CarPartsUltimate/Components/Default/CategorySelector.ascx.cs" Line="28" Column="1" />
+      <File FileName="CarPartsUltimate/Components/Default/VehicleSelection.ascx" Line="4" Column="104" />
+      <File FileName="CarPartsUltimate/Components/Header/HeaderContainer.ascx" Line="1" Column="1" />
+      <File FileName="CarPartsUltimate/Components/Header/VehicleSelectionModal.ascx" Line="1" Column="1" />
+      <File FileName="CarPartsUltimateLib/IDealership.cs" Line="1" Column="1" />
+      <File FileName="CarPartsUltimateData/DealershipRepo.cs" Line="40" Column="39" />
+      <File FileName="CarPartsUltimate/Components/Default/DealerFinder.ascx.cs" Line="25" Column="44" />
       <File FileName="CarPartsUltimate/Components/Default/DealerFinder.ascx" Line="3" Column="111" />
-      <File FileName="CarPartsUltimate/Components/Default/DealerFinder.ascx.cs" Line="1" Column="1" />
-      <File FileName="CarPartsUltimate/Components/Default/FeaturedProducts.ascx" Line="5" Column="63" />
-      <File FileName="CarPartsUltimate/Components/Default/FeaturedProducts.ascx.cs" Line="16" Column="32" />
-      <File FileName="CarPartsUltimate/Components/Default/HeroContent.ascx.cs" Line="1" Column="1" />
-      <File FileName="CarPartsUltimate/Components/Default/VehicleSelection.ascx.cs" Line="26" Column="1" />
-      <File FileName="CarPartsUltimateData/IFitmentRepo.cs" Line="1" Column="1" />
-      <File FileName="CarPartsUltimate/Controllers/FitmentController.cs" Line="1" Column="1" />
-      <File FileName="CarPartsUltimateLib/Vehicle.cs" Line="1" Column="1" />
-      <File FileName="CarPartsUltimateLib/RefineFitmentLink.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,18 +17,17 @@
             <Node name="CarPartsUltimate" expanded="True">
               <Node name="Components" expanded="True">
                 <Node name="Default" expanded="True">
-                  <Node name="FeaturedProducts.ascx" expanded="True" />
-                  <Node name="HeroContent.ascx" expanded="True" />
-                  <Node name="VehicleSelection.ascx" expanded="True" />
+                  <Node name="CategorySelector.ascx" expanded="True" />
+                  <Node name="DealerFinder.ascx" expanded="True" selected="True" />
+                </Node>
+                <Node name="Header" expanded="True">
+                  <Node name="PartsCategories.ascx" expanded="True" />
                 </Node>
               </Node>
               <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="CarPartsUltimateData" expanded="True" />
-            <Node name="CarPartsUltimateLib" expanded="True">
-              <Node name="SiteConfig" expanded="True" />
-              <Node name="RefineFitmentLink.cs" selected="True" />
-            </Node>
+            <Node name="CarPartsUltimateLib" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -18,7 +18,7 @@ namespace CarPartsUltimate.Components.Default
 
         private void GetRefineLinks()
         {
-            FitmentRepo fitmentRepo = new FitmentRepo();
+            IFitmentRepo fitmentRepo = new FitmentRepo();
             RefineLinks = fitmentRepo.GetRefineLinks();
         }
     }
